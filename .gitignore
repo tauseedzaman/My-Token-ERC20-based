@@ -1,0 +1,29 @@
+# Ignored files and directories in a blockchain node Solidity project
+
+# Solidity compiler artifacts
+*.json
+*.sol.js
+*.abi
+*.bin
+*.bin-runtime
+*.bin-runtime.json
+*.bin-runtime-srcmap.json
+*.bin.json
+*.srcmap
+*.srcmap.json
+*.dbg.json
+
+# Build and deployment directories
+build/
+dist/
+deploy/
+
+# Node modules
+node_modules/
+
+# Development tools and configurations
+.truffle/
+.truffle-config.js
+.solcover.js
+.solhint.json
+.soliumrc.json
