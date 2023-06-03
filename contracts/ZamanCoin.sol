@@ -5,11 +5,10 @@ import "../node_modules/@openzeppelin/contracts/token/ERC20/extensions/ERC20Capp
 import "../node_modules/@openzeppelin/contracts/access/Ownable.sol";
 import "../node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-// contract MyToken is ERC20Capped(1000 * 10**18), Ownable {
-contract MyToken is ERC20Capped, Ownable, ReentrancyGuard {
+contract ZamanCoin is ERC20Capped, Ownable, ReentrancyGuard {
     mapping(address => uint256) private balances;
 
-    constructor() ERC20("MyToken", "MTK") ERC20Capped(1000 * 10**18) {
+    constructor() ERC20("ZamanCoin", "ZMN") ERC20Capped(100 * 10**18) {
         // 1000 wevi
         // _mint(msg.sender, 1000);
     }

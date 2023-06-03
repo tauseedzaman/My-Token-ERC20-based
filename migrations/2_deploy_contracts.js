@@ -1,5 +1,5 @@
-const MyToken = artifacts.require("MyToken");
+const ZamanCoin = artifacts.require("ZamanCoin");
 
 module.exports = function(deployer) {
-    deployer.deploy(MyToken);
+    deployer.deploy(ZamanCoin);
 };
